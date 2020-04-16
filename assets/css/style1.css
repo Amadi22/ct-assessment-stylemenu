@@ -45,7 +45,8 @@ h1 {
         - set the font color to #6D4C41
 */
 section {
-    font-size: small;
+    padding-bottom: 50px;
+    font-variant: small-caps;
     color: #6D4C41;
 }
 /* 
@@ -57,10 +58,17 @@ section {
 dt {
     font-size: 20px;
     font-style: bold;
-}
-dd {margin: 0 0 12px 0; display: flex;}
- .details {order: 1;}
+    color: black;
 
+    }
+dd {margin: 0 0 12px 0; display: flex;
+    font-weight: bold;
+     display: inline; margin: 0;}
+     dd::after {content: " "; display: block; clear: both; margin-bottom: 15px;}
+ 
+     
+ .details {order: 1;
+        color: black;}
 /* 
      Update the following ruleset (.price) to accomplish the following:
         - Show the price of each item in a large font
@@ -73,8 +81,8 @@ dd {margin: 0 0 12px 0; display: flex;}
     font-size: large;
 }
 
-dd {display: inline; margin: 0;}
-dd::after {content: " "; display: block; clear: both; margin-bottom: 15px;}
+
+
 .price {float: right; padding: 0 0 35px 20px;}
 address {padding: 10px;}
 
