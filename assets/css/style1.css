@@ -1,3 +1,8 @@
+/*Add a CSS ruleset to accomplish the following:
+    - Use the 'Lato' font family at 18px throughout the body of the document
+    - cover the of the document background with the "map-bg.jpg" image in the images directory.*/
+
+
 body { 
     font-family: Lato; 
     font-size: 18px;
